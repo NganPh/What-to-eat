@@ -1,0 +1,35 @@
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
+.float-left {
+  float: left;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-auto .circle {
+  border-radius: 50%;
+}
+
+.full-height {
+  height: 100vh;
+}
