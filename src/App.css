@@ -47,8 +47,8 @@
 }
 
 .swiper {
-  width: 387px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
   border-radius: 26px;
   position: relative;
   background-size: cover;
@@ -88,4 +88,16 @@
 .MuiButtonBase-root.my-circle:hover .MuiFab-label .MuiSvgIcon-root {
   width: 1.5em;
   height: 1.5em;
+}
+
+.cardContainer {
+  width: 387px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.swipe {
+  position: absolute;
+  width: 387px;
+  height: 600px;
 }
