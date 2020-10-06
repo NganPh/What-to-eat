@@ -1,0 +1,15 @@
+.profile .avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.profile-content {
+  paddingtop: 20px;
+}
+
+.recipe-avatar {
+  margin: 10px;
+  width: 140px !important;
+  height: 140px !important;
+  border-radius: 20px !important;
+}

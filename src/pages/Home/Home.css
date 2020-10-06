@@ -1,0 +1,23 @@
+.sidebar-header {
+  height: 100px;
+  background-color: grey;
+}
+
+.sidebar-header > .avatar {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.sidebar-header > .username {
+  height: 40px;
+  font-size: 2rem;
+  color: white;
+  margin-left: 10px;
+}
+
+.sidebar-content {
+  width: 100%;
+  flex: 1;
+}

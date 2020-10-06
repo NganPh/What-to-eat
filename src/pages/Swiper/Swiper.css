@@ -1,0 +1,62 @@
+.what-to-eat {
+  margin-top: 80px;
+  font-size: 96px;
+  text-align: center;
+  color: #000000;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  border-radius: 26px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.swiper::before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border-radius: 26px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.8) 20%,
+    rgba(0, 0, 0, 0) 40%
+  );
+}
+
+.recipe-info {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  color: white;
+}
+
+.MuiFab-root.my-circle {
+  width: 60px;
+  height: 60px;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.7) !important;
+}
+
+.MuiButtonBase-root.my-circle:hover .MuiFab-label .MuiSvgIcon-root {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.cardContainer {
+  width: 387px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.swipe {
+  position: absolute;
+  width: 387px;
+  height: 600px;
+}
