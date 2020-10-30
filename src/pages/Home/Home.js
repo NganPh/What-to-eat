@@ -9,6 +9,7 @@ import Typography from "@material-ui/core/Typography";
 import SearchIcon from "@material-ui/icons/Search";
 
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [selectedIngredients, setSelectedIngredients] = useState([]);
@@ -21,13 +22,19 @@ const Home = () => {
 
   return (
     <>
-      <div className="sidebar-header d-flex w-100 align-items-center justify-content-start">
-        <Image
-          className="avatar"
-          src="https://www.iconfinder.com/data/icons/faces-general/100/male_old_flat-512.png"
-          roundedCircle
-        />
-        <div className="username">Username</div>
+      <div className="sidebar-header">
+        <Link
+          className="d-flex w-100 h-100 align-items-center justify-content-start"
+          to="/profile"
+        >
+          <Image
+            className="avatar"
+            src="https://www.iconfinder.com/data/icons/faces-general/100/male_old_flat-512.png"
+            roundedCircle
+          />
+
+          <div className="username">Username</div>
+        </Link>
       </div>
       <div className="sidebar-content d-flex align-items-center">
         <div className="filter w-100 py-5">

@@ -11,15 +11,20 @@ import recipesDB from "../../data/recipes";
 import "./Swiper.css";
 
 const Swiper = () => {
-  const recipes = [
-    ...recipesDB,
-    ...recipesDB,
-    ...recipesDB,
-    ...recipesDB,
-    ...recipesDB,
-    ...recipesDB,
-    ...recipesDB,
-  ];
+  const recipes = recipesDB;
+
+  const onSwipe = (direction) => {
+    switch (direction) {
+      case "left":
+        alert("You disliked this recipe");
+        break;
+      case "right":
+        alert("You liked this recipe");
+        break;
+      default:
+        break;
+    }
+  };
 
   return (
     <>
@@ -28,7 +33,7 @@ const Swiper = () => {
         <div className="d-flex flex-column">
           <div className="cardContainer">
             {recipes.map((recipe) => (
-              <TinderCard className="swipe">
+              <TinderCard className="swipe" onSwipe={onSwipe}>
                 <div
                   className="swiper"
                   style={{

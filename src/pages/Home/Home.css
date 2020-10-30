@@ -3,14 +3,14 @@
   background-color: grey;
 }
 
-.sidebar-header > .avatar {
+.sidebar-header .avatar {
   width: 60px;
   height: 60px;
   background-color: white;
   margin-left: 20px;
 }
 
-.sidebar-header > .username {
+.sidebar-header .username {
   height: 40px;
   font-size: 2rem;
   color: white;

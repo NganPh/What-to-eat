@@ -8,6 +8,7 @@ import Tab from "@material-ui/core/Tab";
 import TabPanel from "../../components/TabPanel/TabPanel";
 import Typography from "@material-ui/core/Typography";
 import "./Profile.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [tab, setTab] = useState(0);
@@ -20,7 +21,9 @@ const Home = () => {
     <>
       <div className="sidebar-header d-flex w-100 align-items-center justify-content-start">
         <IconButton>
-          <ArrowBackIosIcon />
+          <Link to="/">
+            <ArrowBackIosIcon />
+          </Link>
         </IconButton>
         <div>Back to Home</div>
       </div>
@@ -50,18 +53,34 @@ const Home = () => {
         </Paper>
         <TabPanel value={tab} index={0}>
           <div className="w-100 d-flex justify-content-center flex-row flex-wrap">
-            <Avatar className="recipe-avatar" variant="rounded"></Avatar>
-            <Avatar className="recipe-avatar" variant="rounded"></Avatar>
-            <Avatar className="recipe-avatar" variant="rounded"></Avatar>
-            <Avatar className="recipe-avatar" variant="rounded"></Avatar>
+            <Link to="/profile/RecipeDetails">
+              <Avatar className="recipe-avatar" variant="rounded"></Avatar>
+            </Link>
+            <Link to="/profile/RecipeDetails">
+              <Avatar className="recipe-avatar" variant="rounded"></Avatar>
+            </Link>
+            <Link to="/profile/RecipeDetails">
+              <Avatar className="recipe-avatar" variant="rounded"></Avatar>
+            </Link>
+            <Link to="/profile/RecipeDetails">
+              <Avatar className="recipe-avatar" variant="rounded"></Avatar>
+            </Link>
           </div>
         </TabPanel>
         <TabPanel value={tab} index={1}>
           <div className="w-100 d-flex justify-content-center flex-row flex-wrap">
-            <Avatar className="recipe-avatar" variant="rounded"></Avatar>
-            <Avatar className="recipe-avatar" variant="rounded"></Avatar>
-            <Avatar className="recipe-avatar" variant="rounded"></Avatar>
-            <Avatar className="recipe-avatar" variant="rounded"></Avatar>
+            <Link to="/profile/RecipeDetails">
+              <Avatar className="recipe-avatar" variant="rounded"></Avatar>
+            </Link>
+            <Link to="/profile/RecipeDetails">
+              <Avatar className="recipe-avatar" variant="rounded"></Avatar>
+            </Link>
+            <Link to="/profile/RecipeDetails">
+              <Avatar className="recipe-avatar" variant="rounded"></Avatar>
+            </Link>
+            <Link to="/profile/RecipeDetails">
+              <Avatar className="recipe-avatar" variant="rounded"></Avatar>
+            </Link>
           </div>
         </TabPanel>
       </div>

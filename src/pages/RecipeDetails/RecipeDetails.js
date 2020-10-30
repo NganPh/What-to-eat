@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
-import Typography from "@material-ui/core/Typography";
 
 const RecipeDetails = () => {
   return (
@@ -9,12 +8,10 @@ const RecipeDetails = () => {
         <div className="d-flex justify-content-center">
           <Image src="//unsplash.it/500/300" />
         </div>
-        <Typography variant="h2" align="center">
-          This is my awesome recipe
-        </Typography>
+        <h2 align="center">This is my awesome recipe</h2>
         <div className="d-flex w-100 h-100 justify-content-center">
           <div className="w-50">
-            <Typography variant="overline">
+            <p>
               Proin ex purus, luctus in sollicitudin sed, consectetur sit amet
               magna. Cras aliquam fringilla nisi, eu sodales nunc viverra et.
               Mauris eu lobortis tellus. Aliquam mattis tincidunt aliquam. Fusce
@@ -31,7 +28,7 @@ const RecipeDetails = () => {
               venenatis risus eu vehicula volutpat. Curabitur dictum ante sit
               amet pulvinar iaculis. Donec venenatis augue nec elit sodales, nec
               efficitur justo condimentum.
-            </Typography>
+            </p>
           </div>
         </div>
       </div>
