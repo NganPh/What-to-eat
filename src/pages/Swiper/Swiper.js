@@ -11,8 +11,10 @@ import recipesDB from "../../data/recipes";
 import "./Swiper.css";
 
 const Swiper = () => {
+  // Simulate database
   const recipes = recipesDB;
 
+  // Tinder card onSwipe
   const onSwipe = (direction) => {
     switch (direction) {
       case "left":

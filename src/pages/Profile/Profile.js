@@ -11,8 +11,10 @@ import "./Profile.css";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  // Save current tab
   const [tab, setTab] = useState(0);
 
+  // on tab change
   const handleChange = (event, newValue) => {
     setTab(newValue);
   };

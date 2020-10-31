@@ -12,9 +12,11 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  // save search results
   const [selectedIngredients, setSelectedIngredients] = useState([]);
   const ingreRef = useRef();
 
+  // add new ingredient to selectedIngredients list when use click find
   const search = () => {
     const newSelectedIng = ingreRef.current.value;
     setSelectedIngredients([...selectedIngredients, newSelectedIng]);
