@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 “What to Eat?” is a web application that allows users to swipe and choose among a variety of random recipes. The goal is to help people find good recipes for daily cooking. Another value is to create an online community where home cooks enjoy watching, sharing and interacting with recipes.
 
-The swiping feature, resembling that of Tinder, makes it easier, quicker and more fun to search for a recipe. There are several filters included to fit every one's preferences. Users are also able to like, save, share and add their own recipes.
+The swiping feature, resembling that of Tinder, makes it easier, quicker and more fun to search for a recipe. Users can surf through each card of recipe and select their favorite ones. Swiping right means liking the recipe, which will be saved in "Saved recipes". Swiping left means disliking the recipe, which will disappear from the deck for a while. There are several filters included to fit every one's preferences. Users are also able to like, save, share and add their own recipes.
 
 ## Next version
 
