@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project description
+
+“What to Eat?” is a web application that allows users to swipe and choose among a variety of random recipes. The goal is to help people find good recipes for daily cooking. Another value is to create an online community where home cooks enjoy watching, sharing and interacting with recipes.
+
+The swiping feature, resembling that of Tinder, makes it easier, quicker and more fun to search for a recipe. There are several filters included to fit every one's preferences. Users are also able to like, save, share and add their own recipes.
+
+## Next version
+
+Further development includes more elaborated functions for recipes filter, account sign in/sign up, and better design for recipes viewer page.
+
+- Recipe filter results should trigger a behavior from the swiping cards to automatically sort out and keep only recipes that meet the criteria.
+- Users are able to either create an account or log in/out as in a normal website.
+- After clicking on whether a card or a recipe thumbnail, users will be directed to a more well-structured view of the recipe.
+
 ## Available Scripts
 
 In the project directory, you can run:
