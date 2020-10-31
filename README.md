@@ -10,7 +10,7 @@ The swiping feature, resembling that of Tinder, makes it easier, quicker and mor
 
 Further development includes more elaborated functions for recipes filter, account sign in/sign up, and better design for recipes viewer page.
 
-- Recipe filter results should trigger a behavior from the swiping cards to automatically sort out and keep only recipes that meet the criteria.
+- Recipe filter will work more properly. Filter results will trigger the swiping cards to automatically sort out and keep only recipes that meet the criteria.
 - Users are able to either create an account or log in/out as in a normal website.
 - After clicking on whether a card or a recipe thumbnail, users will be directed to a more well-structured view of the recipe.
 
